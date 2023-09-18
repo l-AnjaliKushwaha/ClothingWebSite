@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.nav-part1{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 20px 90px 20px 40px;
+    font-size: 13px; 
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;  
+}
+.nav-part3{
+    width: 20%;
+    height: 60%;
+    margin-left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.nav-part3 >.icon > i{
+    color: white;
+    font-size: 20px; 
+    font-weight: 550;
+
+}
+.nav-part3 > .icon {
+    padding: 9px;
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+}
+.nav-part3 > .btn{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+.box1 > h1{
+    width: 37%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding: 40px;   
+}
+.box1 > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 550;
+    position: absolute;
+    left: 35%;
+    top: 24%;
+}
+.box1 > h3{
+    position: absolute;
+    left: 90%;
+    top: 24%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+.box2{
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+.box2 > .img1{
+   width: 80%;
+   height: 82%;
+   margin-left: 20px;
+   background-color: rgb(61, 162, 14);
+   border-radius: 30px;
+   background-image: url(https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+   background-size: cover;
+   background-position: top;
+   
+}
+.box2 > .img2{
+    width: 45%;
+    height: 69%;
+    background-color: aquamarine;
+    border-radius: 30px;
+    background-image: url(https://images.unsplash.com/photo-1617922001439-4a2e6562f328?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+
+ }
+ .box2 > .img3{
+    width: 40%;
+    height: 69%;
+    background-color: rgb(255, 189, 127);
+    border-radius: 30px;
+    background-image: url(https://www.theknot.com/tk-media/images/4ec93dfa-5f70-43a8-b8eb-d73bdae920e2~rs_768.h-cr_0.0.1333.1777);
+    background-size: cover;
+    background-position: center;   
+ }
+ .box2 > .img4{
+    width: 40%;
+    height: 69%;
+    background-color: rgb(255, 189, 127);
+    border-radius: 30px;
+    background-image: url(https://img.freepik.com/free-photo/inspired-woman-enjoying-sunlight-with-closed-eyes_197531-19712.jpg?w=2000);
+    background-size: cover;
+    background-position: center;   
+ }
+ .box2 > .img1 >.arrow{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: 35%;
+    bottom: 61%;
+    border-radius: 50px;  
+ }
+ .box2 > .img2 >.arrow{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: 57%; 
+    bottom: 61%;
+    border-radius: 50px;
+ }
+ .box2 > .img3 >.arrow{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: 76.45%; 
+    bottom: 61%;
+    border-radius: 50px;
+ }
+ .box2 > .img4 >.arrow{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    left: 96%; 
+    bottom: 61%;
+    border-radius: 50px;
+ }
+ .box2 i{
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    left: 7px;
+ }
+ .box2 > .img1 > .img-btn1{
+    position: absolute;
+    bottom: 14%;
+    left: 3%;
+    padding: 3px 7px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: transparent;
+
+ }
+ .box2 > .img1 > .img-btn2{
+    position: absolute;
+    bottom: 7%;
+    left: 3%;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+ }
+ .img-content1{
+    position: absolute;
+    left: 3%;
+    top: 96%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ h2{
+    font-size: 20px;
+ }
+ p{
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 10px;
+ }
+ .img-content2{
+    position: absolute;
+    left: 41%;
+    top: 86%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .img-content3{
+    position: absolute;
+    left: 63%;
+    top: 86%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .img-content4{
+    position: absolute;
+    left: 83%;
+    top: 86%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .page2{
+    width: 100%;
+    height: 100%;
+ }
+ .our-mordern-brand{
+    display: flex;
+ }
+ .our-mordern-brand h2{
+    left: 3%;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-left: 40px;
+ }
+.our-mordern-brand img{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    padding: 50px;
+ }
+ .page2-button{
+    margin-left: 7%;
+ }
+.page2 button{
+   margin-right: 32px;
+   margin-top: 6%;
+   padding: 40px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px; 
+   font-size: 25px; 
+   font-weight: 700;
+   background-color: white;
+   color: rgb(152, 148, 148);
+   border-color: rgb(235, 232, 232);
+ }
+ .page2 .latest {
+    text-align: center;
+    margin-top: 5%;
+ }
+ .latest p{
+    position: absolute;
+    right: 5%;
+    font-size: 14px;
+ }
+ #page2{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+#page2 .box{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid rgb(235, 232, 232);
+    transition: all ease 1s;
+}
+#page2 >.box > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.box > .img-heart > i{
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   font-size: 20px;
+}
+.img-heart > i:hover{
+   color: palevioletred;
+}
+#page2 > .box:hover{
+    scale: 1.2;
+}
+.page3{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    text-align: center;
+    padding: 10px;
+}
+.linear-box{
+    padding: 30px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 20px;
+}
+.linear-box > .li-box1{
+    width: 280px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    background-image: url(https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80);
+    background-size: cover;
+    background-position: center;
+    
+}
+.linear-box > .li-box2{
+   width: 280px;
+   height: 200px;
+   background-color: black;
+   border-radius: 10px;
+   background-image: url(https://images.unsplash.com/photo-1499939667766-4afceb292d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80);
+   background-size: cover;
+   background-position: center;
+   
+}
+.linear-box > .li-box3{
+   width: 280px;
+   height: 200px;
+   background-color: black;
+   border-radius: 10px;
+   background-image: url(https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+   background-size: cover;
+   background-position: center;
+   
+}
+.linear-box > .li-box4{
+   width: 280px;
+   height: 200px;
+   background-color: black;
+   border-radius: 10px;
+   background-image: url(https://images.unsplash.com/photo-1519995150416-0ae3cc5c6470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+   background-size: cover;
+   background-position: center;
+   
+}
+.linear-box > .li-box5{
+   width: 280px;
+   height: 200px;
+   background-color: black;
+   border-radius: 10px;
+   background-image: url(https://images.unsplash.com/photo-1494578151111-d35ec4c84e2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80);
+   background-size: cover;
+   background-position: center;
+   
+}
+
+.two-box{
+   margin-top: 3%;
+   width: 100%;
+   height: 40%;
+   background-color: rgb(250, 247, 233);
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.first-box{
+   width: 470px;
+   height: 250px;
+   background-color: black;
+   border-radius: 30px;
+   margin: 10px;
+   background-image: url(https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+   background-size: cover;
+   background-position: center;
+}
+.second-box{
+   width: 470px;
+   height: 250px;
+   background-color: rgb(190, 90, 90);
+   border-radius: 30px;
+   margin: 10px;
+   background-image: url(https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+   background-size: cover;
+   background-position: bottom;
+}
+.third-box{
+   width: 470px;
+   height: 250px;
+   background-color: rgb(190, 90, 90);
+   border-radius: 30px;
+   margin: 10px;
+   background-image: url(https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+   background-size: cover;
+   background-position: center;
+}
+
+.page3 > h1{
+   padding-top: 30px;
+   text-align: center;
+   letter-spacing: 2px;
+   white-space: 2px;
+   font-size: 35px;
+}
+ video{
+  margin-top: 30px;
+  width: 100%;
+  height: 90%;
+}
+
+
+ 
+
+
+
+
